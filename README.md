@@ -2,7 +2,7 @@
 **Generated on:** 2026-06-06
 
 ## 1. Project Overview
-End-to-end Named Entity Recognition system for noisy Twitter data (WNUT-2016) using BiLSTM + GloVe embeddings with advanced imbalance handling.
+End-to-end Named Entity Recognition system for noisy Twitter data  using BiLTM + GloVe embeddings with advanced imbalance handling.
 
 ## 2. Dataset Statistics
 - Training Sentences: **2394**
