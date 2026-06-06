@@ -17,10 +17,10 @@ End-to-end Named Entity Recognition system for noisy Twitter data (WNUT-2016) us
 ### Token-Level Results
 | Experiment              | Accuracy | Macro F1 | Notes |
 |-------------------------|----------|----------|-------|
-| Baseline (GloVe BiLSTM) | 0.90     | 0.07    | Strong `O` bias |
-| + Data Augmentation     | 0.88     | 0.12    | Improved recall |
-| + BERT                  | _        | 0.22    | Strong transformer baseline |
-| + Tuned BERT-base       | —        | 0.4418  | Best overall model after Optuna tuning |
+| Baseline (GloVe BiLSTM) | 0.90     | 0.07     | Strong `O` bias |
+| + Data Augmentation     | 0.88     | 0.12     | Improved recall |
+| + BERT                  | _        | 0.22     | Strong transformer baseline |
+| + Tuned BERT-base       | —        | 0.4418   | Best overall model after Optuna tuning |
 
 ### Entity-Level (seqeval) Results
 - Baseline: **0.05**
